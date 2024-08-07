@@ -2,12 +2,20 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Debug",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/ogu/Desktop/jungle/rbtree-lab/src",
+      "program": "/Users/ogu/Desktop/jungle/rbtree-lab/src/build/Debug/outDebug"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/ogu/Desktop/jungle/rbtree-lab/test",
-      "program": "/Users/ogu/Desktop/jungle/rbtree-lab/test/build/Debug/outDebug"
+      "cwd": "/Users/ogu/Desktop/jungle/rbtree-lab/src",
+      "program": "/Users/ogu/Desktop/jungle/rbtree-lab/src/build/Debug/outDebug"
     }
   ]
 }
